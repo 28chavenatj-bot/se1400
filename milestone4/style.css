@@ -3,27 +3,77 @@ wrapper {
     grid-auto-rows: minmax(0, auto);
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     gap: 20px;
+
+    grid-template-rows: auto auto 250px auto 150px;
 }
 header {
-    background: rgba(255,0,0,0.3);
-    min-height: 60px;
+    background: #a55b5b;
+    grid-column: 2 / 8;
+    padding: 10px;
     
 }
 nav {
-    background: rgba(0,255,0,0.3);
-    min-height: 120px;
+    background: #a55b5b;
+    grid-column: 2 / 8;
+    text-align: center;
+    padding: 10px;
 
 }
 #hero {
-    background: rgba(255,0,0,0.3);
+    grid-column: 2 / 8;
+
+    background-image:url(images/hotel1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    color:white;
+    font-size: 48px;
+    text-shadow:2px 2px black;
 }
 main {
-    background: rgba(0,0,255,0.3);
-    min-height: 420px;
-}
-footer {
-    background: rgba(255,0,255,0.3);
     grid-column: 2 / 8;
-    min-height: 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
 
+    background: white;
+    padding: 40px;
+}
+
+#text {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.button {
+    background: #a55b5b;
+    color: white;
+    text-align:center;
+    padding: 15px;
+    font-weight:bold;
+}
+
+footer {
+    background: #ccc;
+    grid-column: 2 / 8;
+
+}
+
+body {
+    margin:0;
+    font-family: Verdana, Arial, sans-serif;
+    background: #e6e6e6;
 }
