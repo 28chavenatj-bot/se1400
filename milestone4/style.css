@@ -13,9 +13,11 @@ header {
 
     font-weight: bold;
     font-size: 50px;
-    color: black;
-    
-    
+}
+
+header a {
+    color:black;
+    text-decoration: none;
 }
 nav {
     background: #a55b5b;
@@ -59,6 +61,13 @@ main {
 
     background: white;
     padding: 40px;
+}
+
+main a {
+
+    color: white;
+    text-decoration: none;
+    text-shadow: .5px .5px black;
 }
 
 #text {
