@@ -100,3 +100,8 @@ body {
     font-family: Verdana, Arial, sans-serif;
     background: #e6e6e6;
 }
+
+h3 {
+    text-indent: 40px;
+    word-spacing: 10px;
+}
