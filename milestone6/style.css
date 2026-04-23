@@ -89,7 +89,13 @@ main a {
     width: 100%;
     display: block;
 }
-
+.service-img {
+    width: 100%;          
+    max-height: 400px;    
+    object-fit: cover;    
+    border-radius: 8px;   
+    display: block;
+}
 .button {
     background: #a55b5b;
     color: white;
@@ -152,5 +158,8 @@ h3 {
     }
     #hero h1 {
         font-size: 32px;
+    }
+    .service-img {
+        max-height: 250px; 
     }
 }
