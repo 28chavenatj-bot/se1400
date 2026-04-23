@@ -96,6 +96,14 @@ main a {
     border-radius: 8px;   
     display: block;
 }
+.booking-img {
+    width: 100%;          
+    max-height: 450px;    
+    object-fit: cover;    
+    border-radius: 4px;   
+    margin: 20px 0;    
+    display: block;
+}
 .button {
     background: #a55b5b;
     color: white;
@@ -161,5 +169,8 @@ h3 {
     }
     .service-img {
         max-height: 250px; 
+    }
+    .booking-img {
+        max-height: 300px;
     }
 }
