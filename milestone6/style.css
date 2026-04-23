@@ -91,14 +91,14 @@ main a {
 }
 .service-img {
     width: 100%;          
-    max-height: 400px;    
+    max-height: 200px;    
     object-fit: cover;    
     border-radius: 8px;   
     display: block;
 }
 .booking-img {
     width: 100%;          
-    max-height: 450px;    
+    max-height: 225px;    
     object-fit: cover;    
     border-radius: 4px;   
     margin: 20px 0;    
@@ -113,7 +113,7 @@ main a {
 }
 .history-img {
     width: 100%;          
-    max-height: 500px;
+    max-height: 250px;
     object-fit: cover;
     border-radius: 4px;
     margin: 20px 0;
@@ -175,12 +175,12 @@ h3 {
         font-size: 32px;
     }
     .service-img {
-        max-height: 250px; 
+        max-height: 100px; 
     }
     .booking-img {
-        max-height: 300px;
+        max-height: 100px;
     }
     .history-img {
-        max-height: 350px;
+        max-height: 100px;
     }
 }
