@@ -111,7 +111,14 @@ main a {
     padding: 15px;
     font-weight:bold;
 }
-
+.history-img {
+    width: 100%;          
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 20px 0;
+    display: block;
+}
 .orange {
     background: #d8761b;
 }
@@ -172,5 +179,9 @@ h3 {
     }
     .booking-img {
         max-height: 300px;
+    }
+    @media screen and (max-width: 768px) {
+    .history-img {
+        max-height: 350px;
     }
 }
